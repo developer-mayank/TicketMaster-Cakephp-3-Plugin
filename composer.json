@@ -3,22 +3,12 @@
     "description": "Ticketmaster plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
-	"version": "1.0.0",
     "require": {
         "cakephp/cakephp": "3.5.0",
-    },
-    "require-dev": {
-       
     },
     "autoload": {
         "psr-4": {
             "Ticketmaster\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Ticketmaster\\Test\\": "tests",
-            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
         }
     }
 }
